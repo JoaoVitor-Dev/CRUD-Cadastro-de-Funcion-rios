@@ -41,8 +41,13 @@
           <input id="m-nome" type="text" required />
   
           <label for="m-funcao">Função</label>
-          <input id="m-funcao" type="text" required />
-  
+          <input list="funcoes" id="m-funcao" type="text" required />
+          <datalist id="funcoes">
+            <option>Desenvolvedor Front-End</option>
+            <option>Desenvolvedor Back-End</option>
+            <option>Gerente de Projetos</option>
+            <option>Analista de Teste</option>
+          </datalist>
           <label for="m-salario">Salário</label>
           <input id="m-salario" type="number" required />
           <button id="btnSalvar">Salvar</button>
