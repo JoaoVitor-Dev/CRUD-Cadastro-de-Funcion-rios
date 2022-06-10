@@ -239,3 +239,12 @@ td button i {
 td button i:first-child {
   margin-right: 10px;
 }
+
+footer.fixar-rodape{
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  height: 40px;
+  position: fixed;
+  width: 100%;
+}
